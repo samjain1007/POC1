@@ -1,0 +1,141 @@
+h1{
+    width: 50%;
+    text-align: left;
+    font-size: 3rem;
+    height: 70%;
+}
+.highlight{
+    border-color: #245abc;    
+    color: #245abc;
+    background-color: #f5f4f3;
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+ol li:hover{
+    font-weight: bold;
+    background-color: #f5f4f3;
+    font-size: larger;
+}
+ol li{
+    line-height: 4rem;
+    font-size: 1rem;
+}
+ ol li span{
+    display: inline-block;
+    position: absolute;
+    right:65rem;
+    /* padding: 10rem; */
+}
+
+
+nav li{
+    display: inline-block;
+    padding:4px 8px;
+    font-weight: 400;
+    margin-right: 3rem;
+}
+
+ol{
+    padding:10px;   
+}
+html{
+    padding:20px;
+    font-family: FreightSansLF Pro;
+}
+ul{
+    padding-left: 0px;
+}
+h3{
+    font-size: 1.6rem;
+}
+footer span
+{
+    margin: 1.5rem;
+}
+button:hover
+{
+    color:darkblue;
+    border-color:darkblue;
+    font-weight: 800;
+    border-width: 0.1rem;
+}
+.unhighlight
+{
+    color:red;
+    border-color: red;
+    border-width : 0.01rem;    
+}
+.unhighlight:hover{
+    color: red;
+    border-color: red;
+    border-width : 0.01rem;
+    font-weight: 400;
+}
+div .child
+{
+    width: 30%;
+    /* float: left; */
+    padding: 20px;
+
+
+    border-radius: 2rem;
+}
+#right
+{
+        border: 2px solid purple;
+        height: 35rem;
+        margin-top: 3rem;
+        margin-left: 2rem;
+        padding-top: 3rem;
+        width: 50rem;
+}
+.footer
+{    
+    width:18rem;
+    height: auto;
+    margin-left: 8rem;
+    position: relative;
+    top: -6rem;
+    right: 2rem;
+}
+button
+{
+    background-color: white;
+    border-radius: 50%;
+    padding: 1.5rem;
+    border-width: 0.08rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-color: black;
+    color: black;
+}
+header
+{
+    margin-left: 1.3rem;
+}
+nav
+{
+    margin-left: 1.3rem;
+}
+.outer
+{
+    display: flex;
+    justify-content: space-between;
+}
+#page
+{
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#right
+{
+    padding: 0px;
+}
+img{
+    max-width:100%;
+    max-height:100%;
+    height: fit-content;
+    border-radius: 2rem;
+}
